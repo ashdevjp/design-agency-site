@@ -271,57 +271,8 @@ body {
   color: var(--muted);
 }
 
-/* code card */
-.hero-visual {
-  flex-shrink: 0;
-}
 
-.hero-card {
-  background: #1f2235;
-  border: 1px solid #2a2d45;
-  border-radius: 12px;
-  width: 380px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-}
 
-.card-header {
-  display: flex;
-  gap: 8px;
-  padding: 12px 16px;
-  background: #2a2d45;
-  align-items: center;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.dot.red { background: #ff5f57; }
-.dot.yellow { background: #ffbd2e; }
-.dot.green { background: #28c840; }
-
-.card-content {
-  padding: 20px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  line-height: 2;
-}
-
-.code-line {
-  display: block;
-}
-
-.indent {
-  padding-left: 24px;
-}
-
-.code-purple { color: #c792ea; }
-.code-white { color: #e8e8e8; }
-.code-blue { color: var(--blue); }
-.code-green { color: #c3e88d; }
 
 /* mobile hero */
 @media (max-width: 768px) {

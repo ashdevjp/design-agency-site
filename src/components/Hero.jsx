@@ -3,9 +3,8 @@
 import { useState, useEffect } from 'react'
 
 const phrases = [
-  "We Build Digital Experiences",
-  "We Design Stunning Interfaces", 
-  "We Create Bold Brands",
+  "Designing Ideas that Define your Identity",
+  "We Design Stunning Interfaces",
   "We Craft Pixel Perfect UI",
 ]
 
@@ -49,7 +48,7 @@ const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="hero-content">
-        <p className="hero-tag">✦ Digital Design Agency</p>
+        <p className="hero-tag">Digital Design Agency</p>
         <h1 className="hero-title">
           <Typewriter />
         </h1>
@@ -83,44 +82,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-visual">
-        <div className="hero-card">
-          <div className="card-header">
-            <span className="dot red"></span>
-            <span className="dot yellow"></span>
-            <span className="dot green"></span>
-          </div>
-          <div className="card-content">
-            <p className="code-line">
-              <span className="code-purple">const</span>
-              <span className="code-white"> agency </span>
-              <span className="code-gold">=</span>
-              <span className="code-white"> &#123;</span>
-            </p>
-            <p className="code-line indent">
-              <span className="code-purple">name</span>
-              <span className="code-white">: </span>
-              <span className="code-green">&apos;ForxelDesign&apos;</span>
-              <span className="code-white">,</span>
-            </p>
-            <p className="code-line indent">
-              <span className="code-purple">mission</span>
-              <span className="code-white">: </span>
-              <span className="code-green">&apos;Build Amazing UI&apos;</span>
-              <span className="code-white">,</span>
-            </p>
-            <p className="code-line indent">
-              <span className="code-purple">stack</span>
-              <span className="code-white">: [</span>
-              <span className="code-green">&apos;React&apos;</span>
-              <span className="code-white">, </span>
-              <span className="code-green">&apos;Next.js&apos;</span>
-              <span className="code-white">],</span>
-            </p>
-            <p className="code-line">
-              <span className="code-white">&#125;</span>
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
   )
