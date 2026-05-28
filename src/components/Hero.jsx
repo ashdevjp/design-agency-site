@@ -52,6 +52,8 @@ const Hero = () => {
         <h1 className="hero-title">
           <Typewriter />
         </h1>
+            <div className="hero-visual"></div>
+            <div className='hero-visual2'></div>
         <p className="hero-subtitle">
           We transform ideas into stunning digital products. 
           From UI design to full stack development — 

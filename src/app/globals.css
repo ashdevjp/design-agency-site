@@ -271,7 +271,31 @@ body {
   color: var(--muted);
 }
 
+.hero-visual {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(171, 91, 236, 0.3) 0%, rgba(171, 91, 236, 0.1) 50%, transparent 100%);
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 1;
+}
 
+.hero-visual2 {
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(83, 56, 217, 0.3) 0%, rgba(83, 56, 217, 0.1) 50%, transparent 100%);
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 1;
+}
 
 
 /* mobile hero */
