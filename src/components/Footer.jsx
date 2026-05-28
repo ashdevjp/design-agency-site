@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <h2 className="footer-logo">PIXEL<span>FORGE</span></h2>
+          <h2 className="footer-logo">FORXEL<span>DESIGN</span></h2>
           <p className="footer-tagline">
             We build digital experiences that stand out.
             From stunning UI to full stack solutions.
@@ -38,14 +38,14 @@ const Footer = () => {
             <li><a href="#">GitHub</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Instagram</a></li>
-            <li><a href="mailto:hello@pixelforge.com">Email Us</a></li>
+            <li><a href="mailto:hello@forxeldesign.com">Email Us</a></li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {currentYear} PixelForge. All rights reserved.</p>
-        <p>Built with Next.js & Tailwind CSS</p>
+        <p>© {currentYear} ForxelDesign. All rights reserved.</p>
+        <p>Built with Next.js</p>
       </div>
     </footer>
   )

@@ -56,7 +56,7 @@ const Contact = () => {
             <span className="info-icon"></span>
             <div>
               <h4>Email</h4>
-              <p>hello@pixelforge.com</p>
+              <p>hello@forxeldesign.com</p>
             </div>
           </div>
           <div className="info-item">
