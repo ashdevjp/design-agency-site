@@ -458,7 +458,7 @@ body {
 }
 
 .portfolio-card {
-  background: #1f2235;
+  background: #d1d3e2;
   border: 1px solid #2a2d45;
   border-radius: 16px;
   overflow: hidden;
@@ -496,7 +496,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(13, 15, 26, 0.92);
+  background: #9ca2c6bb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,7 +531,7 @@ body {
 
 .overlay-description {
   font-size: 0.8rem;
-  color: white;
+  color: var(--muted);
   line-height: 1.6;
   margin-bottom: 12px;
 }
