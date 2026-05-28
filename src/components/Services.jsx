@@ -12,7 +12,7 @@ const services = [
   {
     icon: Code,
     title: "Web Development",
-    description: "Modern, fast and scalable web applications built with React and Next.js. Clean code, great performance.",
+    description: "Modern, fast and scalable web applications built with Modern technologies. Clean code, great performance.",
     color: "#5353f9"
   },
   {
@@ -33,7 +33,7 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <div className="section-header">
-        <p className="section-tag">✦ What We Do</p>
+        <p className="section-tag">What We Do</p>
         <h2 className="section-title">Our Services</h2>
         <p className="section-subtitle">
           We offer end to end digital solutions to help your 

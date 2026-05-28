@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="section-header">
-        <p className="section-tag">✦ Get In Touch</p>
+        <p className="section-tag">Get In Touch</p>
         <h2 className="section-title">Contact Us</h2>
         <p className="section-subtitle">
           Have a project in mind? Let&apos;s talk about it.

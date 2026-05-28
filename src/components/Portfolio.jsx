@@ -66,7 +66,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" id="portfolio">
       <div className="section-header">
-        <p className="section-tag">✦ Our Work</p>
+        <p className="section-tag">Our Work</p>
         <h2 className="section-title">Portfolio</h2>
         <p className="section-subtitle">
           A selection of our recent work across design,
