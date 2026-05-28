@@ -13,19 +13,19 @@ const services = [
     icon: Code,
     title: "Web Development",
     description: "Modern, fast and scalable web applications built with React and Next.js. Clean code, great performance.",
-    color: "#f7c948"
+    color: "#04045f"
   },
   {
     icon: BarChart,
     title: "Digital Marketing",
     description: "Strategic digital marketing that drives real results. SEO, social media and content that converts.",
-    color: "#61dafb"
+    color: "#096a06"
   },
   {
     icon: Smartphone,
     title: "Mobile Design",
     description: "Responsive designs that work beautifully across all devices. Mobile first approach always.",
-    color: "#28c840"
+    color: "#284bc8"
   },
 ]
 
