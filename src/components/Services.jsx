@@ -13,7 +13,7 @@ const services = [
     icon: Code,
     title: "Web Development",
     description: "Modern, fast and scalable web applications built with React and Next.js. Clean code, great performance.",
-    color: "#04045f"
+    color: "#5353f9"
   },
   {
     icon: BarChart,
