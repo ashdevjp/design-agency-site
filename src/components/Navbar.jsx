@@ -1,9 +1,18 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Sun, Moon } from 'lucide-react';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [isDark, setIsDark] = useState(true)
+
+  useEffect(() => {
+    document.documentElement.setAttribute(
+      'data-theme', 
+      isDark ? 'dark' : 'light'
+    )
+  }, [isDark])
 
   return (
     <nav className="navbar">
@@ -11,12 +20,24 @@ const Navbar = () => {
         FORXEL<span>DESIGN</span>
       </div>
 
-      <button
-        className="hamburger"
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        {menuOpen ? '✕' : '☰'}
-      </button>
+      <div className="nav-right">
+        {/* Dark mode toggle */}
+        <button
+          className="theme-toggle"
+          onClick={() => setIsDark(!isDark)}
+          title="Toggle theme"
+        >
+          {isDark ? <Sun /> : <Moon />}
+        </button>
+
+        {/* Hamburger */}
+        <button
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? '✕' : '☰'}
+        </button>
+      </div>
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <li><a href="#hero" onClick={() => setMenuOpen(false)}>Home</a></li>
