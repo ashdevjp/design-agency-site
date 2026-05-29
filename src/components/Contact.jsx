@@ -75,7 +75,6 @@ const Contact = () => {
           </div>
 
           <div className="info-socials">
-            <a href="#" className="social-pill">Twitter</a>
             <a href="#" className="social-pill">Facebook</a>
             <a href="#" className="social-pill">Instagram</a>
           </div>

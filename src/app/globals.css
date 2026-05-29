@@ -21,7 +21,7 @@ body {
   --muted: #323131;
 }
 
-/* DARK MODE */
+/* dark mode */
 :root {
   --purple: #ab5bec;
   --blue: #5338d9;
@@ -36,7 +36,7 @@ body {
   --input-bg: #0d0f1a;
 }
 
-/* LIGHT MODE OVERRIDES */
+/* light mode */
 [data-theme="light"] {
   --bg: #f8f9fa;
   --text: #1a1a2e;
