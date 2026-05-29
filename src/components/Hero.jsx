@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 
 const phrases = [
   "Designing Ideas that Define your Identity",
-  "We Design Stunning Interfaces",
-  "We Craft Pixel Perfect UI",
+  "Stunning Interfaces",
+  "Pixel Perfect UI",
 ]
 
 const Typewriter = () => {
@@ -83,9 +83,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-visual">
-        
+      <div className="hero-side">
+        <div className="brand-text">
+          <span className='span1'>FORXEL</span><span>DESIGN</span>
+        </div>
       </div>
+
+      <div className="hero-visual" />
     </section>
   )
 }
