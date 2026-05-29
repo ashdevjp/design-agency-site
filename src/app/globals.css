@@ -134,28 +134,35 @@ body {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    z-index: 1100;
   }
 
   .nav-links {
-    display: none;
+    display: flex;
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     width: 60%;
+    max-width: 320px;
     height: 100vh;
-    background: #0d0f1a;
+    background: var(--nav-bg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    transition: right 0.3s ease;
-    z-index: 999;
-    border-left: 1px solid #2a2d45;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1050;
+    border-left: 1px solid var(--border);
+    padding: 20px;
   }
 
   .nav-links.open {
-    display: flex;
-    right: 0;
+    transform: translateX(0);
+  }
+
+  .nav-right {
+    z-index: 1100;
   }
 }
 
