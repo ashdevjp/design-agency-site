@@ -3,7 +3,7 @@
 A modern design agency homepage built with Next.js 13+
 
 ## Live Demo
-[View Live](forxeldesign.vercel.app)
+[View Live](https://forxeldesign.vercel.app/)
 
 ## Tech Stack
 - Next.js 13 App Router
