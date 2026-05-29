@@ -35,8 +35,7 @@ const Footer = () => {
         <div className="footer-links-group">
           <h4>Connect</h4>
           <ul>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Facebook</a></li>
             <li><a href="#">Instagram</a></li>
             <li><a href="mailto:hello@forxeldesign.com">Email Us</a></li>
           </ul>
