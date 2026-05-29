@@ -48,6 +48,7 @@ const Contact = () => {
         </p>
       </div>
 
+          
       <div className="contact-wrapper">
 
         {/* Left side info */}
@@ -152,6 +153,7 @@ const Contact = () => {
           )}
         </div>
       </div>
+      
     </section>
   )
 }

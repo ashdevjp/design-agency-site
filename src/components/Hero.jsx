@@ -52,7 +52,7 @@ const Hero = () => {
         <h1 className="hero-title">
           <Typewriter />
         </h1>
-            <div className="hero-visual"></div>
+            <div className="hero-visual1"></div>
             <div className='hero-visual2'></div>
         <p className="hero-subtitle">
           We transform ideas into stunning digital products. 
@@ -88,6 +88,38 @@ const Hero = () => {
           <span className='span1'>FORXEL</span><span>DESIGN</span>
         </div>
       </div>
+
+      <div className="hero-visual">
+  <div className="floating-cards">
+    
+    <div className="float-card card-1">
+      <div className="float-card-icon">🚀</div>
+      <div>
+        <p className="float-card-number">50+</p>
+        <p className="float-card-label">Projects Delivered</p>
+      </div>
+    </div>
+
+    <div className="float-card card-2">
+      <div className="float-card-icon">⭐</div>
+      <div>
+        <p className="float-card-number">98%</p>
+        <p className="float-card-label">Client Satisfaction</p>
+      </div>
+    </div>
+
+    <div className="float-card card-3">
+      <div className="float-card-icon">⚡</div>
+      <div>
+        <p className="float-card-number">2hrs</p>
+        <p className="float-card-label">Avg Response Time</p>
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
 
       <div className="hero-visual" />
     </section>
